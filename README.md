@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Exchange Rate Application
+This is front-end application, fully working with my back-end application in my repository named:  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## ExchangeRatesProject-Back-end
 
-## Available Scripts
+# Getting Started
+Clone this repository to your local machine.  
+Navigate to the project directory in your terminal.  
+Install dependencies using the command npm install.  
+Start the application using the command npm start.  
+Open http://localhost:3000 to view the application in the browser.  
 
-In the project directory, you can run:
+# Features
+This application allows you to view and update exchange rates data from an API. It includes the following features:  
 
-### `npm start`
+View exchange rates data in a table.  
+Update exchange rates data by clicking on the "Update Exchange Rates" button.  
+Fetch exchange rates data from a local API endpoint.  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Dependencies
+This project relies on the following dependencies:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## React  
+## Axios  
+## React Router  
 
-### `npm test`
+# Usage
+## View Exchange Rates  
+To view exchange rates, click on the "View Exchange Rates" button.  
+This will make an API call to fetch exchange rates data and display it in a table.  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Update Exchange Rates  
+To update exchange rates, click on the "Update Exchange Rates" button.  
+This will make an API call to update the exchange rates data.  
 
-### `npm run build`
+## API
+The application fetches and updates exchange rates data from a local API endpoint.  
+The endpoint can be found at http://localhost:8080/api/exchangerates.  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Author
+## Matyáš Bureš
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
