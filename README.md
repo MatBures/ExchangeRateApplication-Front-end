@@ -1,5 +1,5 @@
 # Exchange Rate Application
-This is front-end application, fully working with my back-end application in my repository named:  
+This is REACT front-end application, fully working with my back-end application in my repository named:  
 
 ## ExchangeRatesProject-Back-end
 
