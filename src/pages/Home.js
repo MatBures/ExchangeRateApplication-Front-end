@@ -15,12 +15,7 @@ export default function Home() {
         try {
 
             // Make an API call to fetch exchange rates
-            const result = await axios.get(
-                "http://localhost:8080/api/exchangerates?usedb=false"
-            );
-
-            // Display the result in an alert box
-            alert(result.data);
+           await axios.get("http://localhost:8080/api/exchangerates?usedb=false");
 
             // Update the state to indicate that data has been fetched
             setViewData(true);
